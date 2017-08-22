@@ -185,9 +185,9 @@ GameStore.Categories = {
 			-- Item Example : thingId = itemId
 			{name = "Royal Scale Robe", thingId = 12643, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 300, icons = {"Royal_Scale_Robe.png"}, description = "You see a royal scale robe (Arm:12, magic level +2, protection fire +5%)."},
 			{name = "Yalahari Mask", thingId = 9778, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 300, icons = {"Yalahari_Mask.png"}, description = "You see a yalahari mask (Arm:5, magic level +2)."},
-			{name = "Wand of Defiance", thingId = 18390, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 200, icons = {"18390.png"}, description = "You see a wand of defiance (magic level +1).It reveals devastating energy arcs."},
-			{name = "Spelbook of Dark Mysteries", thingId = 8918, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 250, icons = {"8918.png"}, description = "You see a spellbook of dark mysteries (Def:16, magic level +3). It shows your spells and can also shield against attacks when worn."},
-			{name = "Wand of Everblazing", thingId = 18409, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 200, icons = {"18409.png"}, description = "You see a wand of everblazing (magic level +1).It contains the everblazing fire."},
+			{name = "Wand of Defiance", thingId = 18390, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 200, icons = {"Wand_of_Defiance.png"}, description = "You see a wand of defiance (magic level +1).It reveals devastating energy arcs."},
+			{name = "Spellbook of Dark Mysteries", thingId = 8918, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 250, icons = {"Spellbook_of_Dark_Mysteries.png"}, description = "You see a spellbook of dark mysteries (Def:16, magic level +3). It shows your spells and can also shield against attacks when worn."},
+			{name = "Wand of Everblazing", thingId = 18409, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 200, icons = {"Wand_of_Everblazing.png"}, description = "You see a wand of everblazing (magic level +1).It contains the everblazing fire."},
 		}
 	},
 
@@ -199,10 +199,10 @@ GameStore.Categories = {
 			-- Item Example : thingId = itemId
 			{name = "Royal Draken Mail", thingId = 12642, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 300, icons = {"Royal_Draken_Mail.png"}, description = "You see a royal draken mail (Arm:16, shielding +3, protection physical +5%)."},
 			{name = "Prismatic Helmet", thingId = 18403, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 300, icons = {"Prismatic_Helmet.png"}, description = "You see a prismatic helmet (Arm:9, shielding +1, protection physical +5%)."},
-			{name = "Solar Axe", thingId = 8925, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 550, icons = {"8925.png"}, description = "You see a solar axe (Atk:52, Def:29 +3)."},
-			{name = "Shiny Blade", thingId = 18465, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 550, icons = {"18465.png"}, description = "You see a shiny blade (Atk:50, Def:35 +3, sword fighting +1)."},
-			{name = "Dark Trinity Mace", thingId = 8927, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 550, icons = {"8927.png"}, description = "You see a dark trinity mace (Atk:51, Def:32 -1)."},
-		
+			{name = "Solar Axe", thingId = 8925, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 550, icons = {"Solar_Axe.png"}, description = "You see a solar axe (Atk:52, Def:29 +3)."},
+			{name = "Shiny Blade", thingId = 18465, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 550, icons = {"Shiny_Blade.png"}, description = "You see a shiny blade (Atk:50, Def:35 +3, sword fighting +1)."},
+			{name = "Dark Trinity Mace", thingId = 8927, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 550, icons = {"Dark_Trinity_Mace.png"}, description = "You see a dark trinity mace (Atk:51, Def:32 -1)."},
+
 		}
 	},
 
@@ -214,7 +214,7 @@ GameStore.Categories = {
 			-- Item Example : thingId = itemId
 			{name = "Master Acher's Armor", thingId = 8888, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 250, icons = {"Master_Archer's_Armor.png"}, description = "You see a master archer's armor (Arm:15, distance fighting +3)."},
 			{name = "Elite Draken Helmet", thingId = 12645, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 300, icons = {"Elite_Draken_Helmet.png"}, description = "You see an elite draken helmet (Arm:9, distance fighting +1, protection death +3%)."},
-			{name = "Royal Crossbow", thingId = 8851, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 400, icons = {"8851.png"}, description = "You see a royal crossbow (Range: 6, Atk +5, Hit% +3)"},
+			{name = "Royal Crossbow", thingId = 8851, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 400, icons = {"Royal_Crossbow.png"}, description = "You see a royal crossbow (Range: 6, Atk +5, Hit% +3)"},
 		}
 	},
 
@@ -226,9 +226,9 @@ GameStore.Categories = {
 			-- Item Example : thingId = itemId
 			{name = "Royal Scale Robe", thingId = 12643, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 300, icons = {"Royal_Scale_Robe.png"}, description = "You see a royal scale robe (Arm:12, magic level +2, protection fire +5%)."},
 			{name = "Yalahari Mask", thingId = 9778, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 300, icons = {"Yalahari_Mask.png"}, description = "You see a yalahari mask (Arm:5, magic level +2)."},
-			{name = "Glacial Rod", thingId = 18412, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 200, icons = {"18412.png"}, description = "You see a glacial rod (magic level +1). Hurls the icy essence of the Svargrond glaciers."},
-			{name = "Muck Rod", thingId = 18411, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 200, icons = {"18411.png"}, description = "You see a muck rod (magic level +1). A true staff of old, spitting slimy orbs."},
-			{name = "Spelbook of Dark Mysteries", thingId = 8918, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 250, icons = {"8918.png"}, description = "You see a spellbook of dark mysteries (Def:16, magic level +3). It shows your spells and can also shield against attacks when worn."},
+			{name = "Glacial Rod", thingId = 18412, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 200, icons = {"Glacial_Rod.png"}, description = "You see a glacial rod (magic level +1). Hurls the icy essence of the Svargrond glaciers."},
+			{name = "Muck Rod", thingId = 18411, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 200, icons = {"Muck_Rod.png"}, description = "You see a muck rod (magic level +1). A true staff of old, spitting slimy orbs."},
+			{name = "Spellbook of Dark Mysteries", thingId = 8918, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 250, icons = {"Spellbook_of_Dark_Mysteries.png"}, description = "You see a spellbook of dark mysteries (Def:16, magic level +3). It shows your spells and can also shield against attacks when worn."},
 		}
 	},
 
@@ -238,10 +238,10 @@ GameStore.Categories = {
 		icons = {"Category_Equipment.png"},
 		offers = {
 			-- Item Example : thingId = itemId
-			{name = "Whacking driller of fate", thingId = 9598, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE, price = 200, icons = {"9598.png"}, description = "Rope, shovel, pick, machete - everything in one!"},
-			{name = "Zaoan chess box", thingId = 20620, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE, price = 250, icons = {"20620.png"}, description = "The best cointainer in the game, it has 32 slots."},
-			{name = "backpack of holding", thingId = 2365, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE, price = 200, icons = {"2365.png"}, description = "Everyone know this backpack, it has 24 slots."},
-			{name = "pillow backpack", thingId = 27049, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE, price = 150, icons = {"27049.png"}, description = "Cool looking backpack but with 18 slots."},
+			{name = "Whacking Driller of Fate", thingId = 9598, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE, price = 200, icons = {"Whacking_Driller_of_Fate.png"}, description = "Rope, shovel, pick, machete - everything in one!"},
+			{name = "Zaoan Chess Box", thingId = 20620, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE, price = 250, icons = {"Zaoan_Chess_Box.png"}, description = "The best cointainer in the game, it has 32 slots."},
+			{name = "Backpack of Holding", thingId = 2365, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE, price = 200, icons = {"Backpack_of_Holding.png"}, description = "Everyone know this backpack, it has 24 slots."},
+			{name = "Pillow Backpack", thingId = 27049, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE, price = 150, icons = {"Pillow_Backpack.png"}, description = "Cool looking backpack but with 18 slots."},
 		}
 	},
 
@@ -268,7 +268,7 @@ for k, category in ipairs(GameStore.Categories) do
 		for m, offer in ipairs(category.offers) do
 			offer.id = runningId
 			runningId = runningId + 1
-			
+
 			if not offer.type then
 				offer.type = GameStore.OfferTypes.OFFER_TYPE_NONE
 			end
