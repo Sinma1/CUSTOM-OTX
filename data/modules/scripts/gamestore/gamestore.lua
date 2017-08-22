@@ -17,12 +17,12 @@ GameStore.Categories = {
 			{name = "Retro Citizen", thingId = {male=974,female=975}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 1250, icons = {"Retro_Citizen_Male.png", "Retro_Citizen_Female.png"}},
 
 			-- Mount Example : thingId = mountId
-			{name = "Blazing Unicorn", thingId = 1017, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1500, icons = {"Blazing_Unicorn.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
-			{name = "Arctic Unicorn", thingId = 1018, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1500, icons = {"Arctic_Unicorn.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
-			{name = "Prismatic Unicorn", thingId = 1019, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1500, icons = {"Prismatic_Unicorn.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
-			{name = "Lagoon Saurian", thingId = 961, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"Lagoon_Saurian.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
-			{name = "Ember Saurian", thingId = 960, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"Ember_Saurian.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
-			{name = "Jungle Saurian", thingId = 959, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"Jungle_Saurian.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Blazing Unicorn", thingId = 113, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1500, icons = {"Blazing_Unicorn.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Arctic Unicorn", thingId = 114, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1500, icons = {"Arctic_Unicorn.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Prismatic Unicorn", thingId = 115, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1500, icons = {"Prismatic_Unicorn.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Lagoon Saurian", thingId = 112, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"Lagoon_Saurian.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Ember Saurian", thingId = 111, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"Ember_Saurian.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Jungle Saurian", thingId = 110, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"Jungle_Saurian.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
 		}
 	},
 
