@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gustaf" script="data/npc/scripts/default.lua" walkinterval="1500" speed="100" walkradius="2" floorchange="0" speechbubble="1">
+	<health max="100" now="100"/>
+	<look type="128" head="114" body="39" legs="95" feet="114" addons="0" mount="0"/>
+	<parameters>
+		<!--MESSAGES-->
+		<parameter key="message_greet" value="Greetings, |PLAYERNAME|, what brings you to my island?"/>
+		<parameter key="message_idletimeout" value="Bye then."/>
+		<parameter key="message_noshop" value="Sorry, I'm not offering anything."/>
+		<parameter key="message_alreadyfocused" value="|PLAYERNAME|, I am already talking to you."/>
+		<parameter key="message_walkaway_male" value="Good bye."/>
+		<parameter key="message_walkaway_female" value="Good bye."/>
+		<!--KEYWORDS-->
+		<parameter key="module_keywords" value="1"/>
+		<parameter key="keywords" value="reward;souvenir;basement;golden helmet;thunder hammer;winged helmet;thais;magic longsword;warlord sword;shield of honour;blessed shield;horned helmet;tempest shield;broken amulet;crown"/>
+		<parameter key="keyword_reply1" value="Oh, reward? For what? Hmm, since almost no one visits me, i can give you one of my souvenirs. "/>
+		<parameter key="keyword_reply2" value="Obviously i will not give you anything from my house but if you find my basement on this island then u will be able to take whatever you want from there!"/>
+		<parameter key="keyword_reply3" value="What? Oh, yes, the basement, go west, entrence is somewhere in the bushes..."/>
+		<parameter key="keyword_reply4" value="My favorite helmet, surprising is what waves can throw ashore."/>
+		<parameter key="keyword_reply5" value="it was a gift from the gods."/>
+		<parameter key="keyword_reply6" value="Funny, I found it when I was in Thais."/>
+		<parameter key="keyword_reply7" value="An unusual city."/>
+		<parameter key="keyword_reply8" value=" I can not tell you where I got it from."/>
+		<parameter key="keyword_reply9" value="A gift from an old friend."/>
+		<parameter key="keyword_reply10" value="Nice looking shield."/>
+		<parameter key="keyword_reply11" value="The best shield i have ever seen, it is a gift from the gods."/>
+		<parameter key="keyword_reply12" value="I found it on the ground near to the dark catedral a long time ago."/>
+		<parameter key="keyword_reply13" value="I can't remember where I got it from."/>
+		<parameter key="keyword_reply14" value="My dad gave me it."/>
+		<parameter key="keyword_reply15" value="a crow? Where?"/>
+	</parameters>
+</npc>
