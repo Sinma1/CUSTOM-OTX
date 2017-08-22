@@ -8,19 +8,24 @@ GameStore.Categories = {
 		icons = {"New_Products.png"},
 		offers = {
 			-- Addon Example : thingId = lookType, addon = ( 1 = addon 1, 2 = addon 2, 3 = both addons)
-			{name = "Grove Keeper", thingId = {male=908,female=909}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 1000, icons = {"f909.png", "f908.png"}},
-			{name = "Festive Outfit", thingId = {male=931,female=929}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 800, icons = {"f931.png", "f929.png"}},
-			{name = "Pharaoh", thingId = {male=955,female=956}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 1000, icons = {"f955.png", "f956.png"}},
+			{name = "Retro Warrior", thingId = {male=962,female=963}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 1250, icons = {"Retro_Warrior_Male.png", "Retro_Warrior_Female.png"}},
+			{name = "Retro Summoner", thingId = {male=964,female=965}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 1250, icons = {"Retro_Summoner_Male.png", "Retro_Summoner_Female.png"}},
+			{name = "Retro Nobleman", thingId = {male=966,female=967}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 1250, icons = {"Retro_Nobleman_Male.png", "Retro_Nobleman_Female.png"}},
+			{name = "Retro Mage", thingId = {male=968,female=969}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 1250, icons = {"Retro_Mage_Male.png", "Retro_Mage_Female.png"}},
+			{name = "Retro Knight", thingId = {male=970,female=971}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 1250, icons = {"Retro_Knight_Male.png", "Retro_Knight_Female.png"}},
+			{name = "Retro Hunter", thingId = {male=972,female=973}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 1250, icons = {"Retro_Hunter_Male.png", "Retro_Hunter_Female.png"}},
+			{name = "Retro Citizen", thingId = {male=974,female=975}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 1250, icons = {"Retro_Citizen_Male.png", "Retro_Citizen_Female.png"}},
 
 			-- Mount Example : thingId = mountId
-			{name = "Jackalope", thingId = 103, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"o905.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
-			{name = "Dreadhare", thingId = 104, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"o906.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
-			{name = "Wolpertinger", thingId = 105, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"o907.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
-			{name = "Stone Rhino", thingId = 106, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1500, icons = {"o937.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
-			{name = "Gold Sphinx", thingId = 107, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"o950.png"}, description = "Here you can purchase the Mount for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
-			{name = "Emerald Sphinx", thingId = 108, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"o951.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
-			{name = "Shadow Sphinx", thingId = 109, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"o952.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
-			--{name = "Elephant", thingId = 107, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1, icons = {"o937.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Blazing Unicorn", thingId = 1017, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1500, icons = {"Blazing_Unicorn.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Arctic Unicorn", thingId = 1018, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1500, icons = {"Arctic_Unicorn.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Prismatic Unicorn", thingId = 1019, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1500, icons = {"Prismatic_Unicorn.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Lagoon Saurian", thingId = 961, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"Lagoon_Saurian.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Ember Saurian", thingId = 960, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"Ember_Saurian.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Jungle Saurian", thingId = 959, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"Jungle_Saurian.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Gold Sphinx", thingId = 107, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"Gold_Sphinx.png"}, description = "Here you can purchase the Mount for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Emerald Sphinx", thingId = 108, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"Emerald_Sphinx.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Shadow Sphinx", thingId = 109, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"Shadow_Sphinx.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
 		}
 	},
 
@@ -120,6 +125,10 @@ GameStore.Categories = {
 			{name = "Ivory Fang", thingId = 100, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1000, icons = {"Ivory_Fang.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
 			{name = "Shadow Claw", thingId = 101, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1000, icons = {"Shadow_Claw.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
 			{name = "Snow Pelt", thingId = 102, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1000, icons = {"Snow_Pelt.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Jackalope", thingId = 103, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"Jackalope.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Dreadhare", thingId = 104, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"Dreadhare.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Wolpertinger", thingId = 105, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1250, icons = {"Wolpertinger.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
+			{name = "Stone Rhino", thingId = 106, type = GameStore.OfferTypes.OFFER_TYPE_MOUNT, price = 1500, icons = {"Stone_Rhino.png"}, description = "Here you can purchase the Mount  for your character. Riding on a mount is not only cool, but also gives your character a speed boost."},
 		}
 	},
 
@@ -148,6 +157,10 @@ GameStore.Categories = {
 			{name = "Winter Warden", thingId = {male=853,female=852}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 1200, icons = {"Winter_Warden_Male.png", "Winter_Warden_Female.png"}},
 			{name = "Philosopher", thingId = {male=874,female=873}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 1000, icons = {"Philosopher_Male.png", "Philosopher_Female.png"}},
 			{name = "Arena Champion", thingId = {male=884,female=885}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 1000, icons = {"Arena_Champion_Male.png", "Arena_Champion_Female.png"}},
+			{name = "Grove Keeper", thingId = {male=908,female=909}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 1000, icons = {"Grove_Keeper_Male.png", "Grove_Keeper_Female.png"}},
+			{name = "Festive Outfit", thingId = {male=931,female=929}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 800, icons = {"Festive_Male.png", "Festive_Female.png"}},
+			{name = "Pharaoh", thingId = {male=955,female=956}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 1000, icons = {"Pharaoh_Male.png", "Pharaoh_Female.png"}},
+			
 		}
 	},
 
