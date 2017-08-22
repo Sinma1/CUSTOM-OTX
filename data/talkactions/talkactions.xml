@@ -21,6 +21,8 @@
 		<talkaction words="/addach" separator=" " script="achievements.lua" />
 		<talkaction words="/removeach" separator=" " script="achievements.lua" />
 		<talkaction words="/coins" separator=" " script="coins.lua" />
+		<talkaction words="/test" separator=" " script="test.lua" />
+		<talkaction words="/cc" separator=" " script="clearconsole.lua" />
 
 	<!-- Gamemasters -->
         <talkaction words="/ban" separator=" " script="ban.lua" />
@@ -41,12 +43,12 @@
         <talkaction words="/looktype" separator=" " script="looktype.lua" />
         <talkaction words="/mute" script="mute.lua" />
 
-		
+
 	<!-- Senior Tutors -->
 		<talkaction words="/addtutor" separator=" " script="add_tutor.lua" />
 		<talkaction words="/removetutor" separator=" " script="remove_tutor.lua" />
 
-		
+
 	<!--Tutors -->
 		<talkaction words="/mute" separator=" " script="mute.lua" />
 
@@ -56,7 +58,7 @@
 		<talkaction words="!leavehouse" script="leavehouse.lua" />
 		<talkaction words="!sellhouse" separator=" " script="sellhouse.lua" />
 		<talkaction words="!uptime" script="uptime.lua" />
-		<talkaction words="!outfit" script="guild_outfit.lua"/> 
+		<talkaction words="!outfit" script="guild_outfit.lua"/>
 		<talkaction words="!online" script="online.lua" />
 		<talkaction words="!serverinfo" script="serverinfo.lua" />
 
@@ -66,5 +68,5 @@
 	<talkaction words="/citywar" script="waredron.lua"/>
 	<talkaction words="/citywar" script="warlb.lua"/>
 	<talkaction words="/citywar" script="waryalahar.lua"/>
-		
+
 </talkactions>

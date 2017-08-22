@@ -232,9 +232,9 @@ function parseBuyStoreOffer(playerId, msg)
 		end
 
 		-- If no thing id,
-		if offer.type ~= GameStore.OfferTypes.OFFER_TYPE_NAMECHANGE and 
-			offer.type ~= GameStore.OfferTypes.OFFER_TYPE_EXPBOOST and 
-			offer.type ~= GameStore.OfferTypes.OFFER_TYPE_PREYBONUS and 
+		if offer.type ~= GameStore.OfferTypes.OFFER_TYPE_NAMECHANGE and
+			offer.type ~= GameStore.OfferTypes.OFFER_TYPE_EXPBOOST and
+			offer.type ~= GameStore.OfferTypes.OFFER_TYPE_PREYBONUS and
 			offer.type ~= GameStore.OfferTypes.OFFER_TYPE_PREYSLOT and
 			offer.type ~= GameStore.OfferTypes.OFFER_TYPE_TEMPLE and
 			offer.type ~= GameStore.OfferTypes.OFFER_TYPE_SEXCHANGE and
@@ -336,8 +336,8 @@ function parseBuyStoreOffer(playerId, msg)
 			end
 		elseif offer.type == GameStore.OfferTypes.OFFER_TYPE_HOUSE then
 			local function isCaskItem(itemId)
-				return (itemId >= ITEM_HEALTH_CASK_START and itemId <= ITEM_HEALTH_CASK_END) or 
-					(itemId >= ITEM_MANA_CASK_START and itemId <= ITEM_MANA_CASK_END) or 
+				return (itemId >= ITEM_HEALTH_CASK_START and itemId <= ITEM_HEALTH_CASK_END) or
+					(itemId >= ITEM_MANA_CASK_START and itemId <= ITEM_MANA_CASK_END) or
 					(itemId >= ITEM_SPIRIT_CASK_START and itemId <= ITEM_SPIRIT_CASK_END)
 			end
 
@@ -501,7 +501,7 @@ function openStore(playerId)
 		GameStoreCategories, GameStoreCount = getCategoriesRook()
 	else
 		GameStoreCategories, GameStoreCount = GameStore.Categories, #GameStore.Categories
-	end 
+	end
 
 	if (GameStoreCategories) then
 		msg:addU16(GameStoreCount)
@@ -590,12 +590,12 @@ function sendShowStoreOffers(playerId, category)
 				disabled = 1
 			end
 
-			if offer.type ~= GameStore.OfferTypes.OFFER_TYPE_NAMECHANGE and 
-				offer.type ~= GameStore.OfferTypes.OFFER_TYPE_EXPBOOST and 
-				offer.type ~= GameStore.OfferTypes.OFFER_TYPE_PREYSLOT and 
+			if offer.type ~= GameStore.OfferTypes.OFFER_TYPE_NAMECHANGE and
+				offer.type ~= GameStore.OfferTypes.OFFER_TYPE_EXPBOOST and
+				offer.type ~= GameStore.OfferTypes.OFFER_TYPE_PREYSLOT and
 				offer.type ~= GameStore.OfferTypes.OFFER_TYPE_PREYBONUS and
-				offer.type ~= GameStore.OfferTypes.OFFER_TYPE_TEMPLE and 
-				offer.type ~= GameStore.OfferTypes.OFFER_TYPE_SEXCHANGE and 
+				offer.type ~= GameStore.OfferTypes.OFFER_TYPE_TEMPLE and
+				offer.type ~= GameStore.OfferTypes.OFFER_TYPE_SEXCHANGE and
 				not offer.thingId then
 				disabled = 1
 			end

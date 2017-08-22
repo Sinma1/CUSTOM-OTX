@@ -160,7 +160,7 @@ GameStore.Categories = {
 			{name = "Grove Keeper", thingId = {male=908,female=909}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 1000, icons = {"Grove_Keeper_Male.png", "Grove_Keeper_Female.png"}},
 			{name = "Festive Outfit", thingId = {male=931,female=929}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 800, icons = {"Festive_Male.png", "Festive_Female.png"}},
 			{name = "Pharaoh", thingId = {male=955,female=956}, addon = 3, type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT, price = 1000, icons = {"Pharaoh_Male.png", "Pharaoh_Female.png"}},
-			
+
 		}
 	},
 
@@ -169,7 +169,6 @@ GameStore.Categories = {
 		state = GameStore.States.STATE_NONE,
 		icons = {"Category_Items.png"},
 		offers = {
-		    {name = "Crystal coin", thingId = 2160, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 140, icons = {"Crystal_Coin.png"}, description = "Become rich!"},
 			--Armorid--
 			{name = "Demon Armor", thingId = 2494, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 200, icons = {"Demon_Armor.png"}, description = "You see a demon armor (Arm:16)."},
 			--Legsid--
@@ -258,6 +257,10 @@ GameStore.Categories = {
 			{name = "Character Name Change", type = GameStore.OfferTypes.OFFER_TYPE_NAMECHANGE, price = 200, icons = {"Product_CharacterNameChange.png"}},
 			-- Sexchange example
 			{name = "Character Sex Change", type = GameStore.OfferTypes.OFFER_TYPE_SEXCHANGE, price = 200, icons = {"Product_CharacterSexChange.png"}},
+			{name = "XP boost", type = GameStore.OfferTypes.OFFER_TYPE_EXPBOOST, price = 200, icons = {"Product_XpBoost.png"}},
+			{name = "Prey slot", type = GameStore.OfferTypes.OFFER_TYPE_PREYSLOT, price = 200, icons = {"Product_XpBoost.png"}},
+			{name = "Prey reroll", count = 1, type = GameStore.OfferTypes.OFFER_TYPE_PREYBONUS, price = 50, icons = {"Product_XpBoost.png"}},
+			{name = "5x Prey reroll", count = 5, type = GameStore.OfferTypes.OFFER_TYPE_PREYBONUS, price = 210, icons = {"Product_XpBoost.png"}},
 		}
 	},
 }

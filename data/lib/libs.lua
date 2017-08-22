@@ -11,3 +11,4 @@ dofile('data/lib/events/libs.lua')
 
 -- Custom functions
 dofile('data/lib/account_storage.lua')
+dofile('data/lib/exp_boost.lua')
