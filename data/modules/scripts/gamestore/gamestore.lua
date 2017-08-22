@@ -25,47 +25,6 @@ GameStore.Categories = {
 	},
 
 	{
-		name = "Overcharged items",
-		state = GameStore.States.STATE_NEW,
-		icons = {"New_Products.png"},
-		offers = {
-			-- Item Example : thingId = itemId
-			{name = "Blade of Carving Overcharged", thingId = 26270, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 180, icons = {"25192.png"}, description = "Sword Fighting +1, Mana Leech chance +100%, mana leech amount +9%"},
-			{name = "Blade of Mayhem Overcharged", thingId = 26235, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 180, icons = {"25193.png"}, description = "Sword Fighting +1, Critical Hit chance +10%, critical extra damage +60%"},
-			{name = "Blade of Remedy Overcharged", thingId = 26256, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 180, icons = {"25191.png"}, description = "Sword Fighting +1, Hit Points Leech chance +100%, hit points leech amount +9%"},
-			{name = "Slayer of Carving Overcharged", thingId = 26277, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 180, icons = {"25190.png"}, description = "Sword Fighting +1, Mana Leech chance +100%, mana leech amount +9%"},
-			{name = "Slayer of Mayhem Overcharged", thingId = 26238, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18390.png"}, description = "Sword Fighting +1, Critical Hit chance +10%, critical extra damage +60%"},
-			{name = "Slayer of Remedy Overcharged", thingId = 26260, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"8918.png"}, description = "Sword Fighting +1, Hit Points Leech chance +100%, hit points leech amount +9%"},
-			{name = "Axe of Carving Overcharged", thingId = 26284, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Axe Fighting +1, Mana Leech chance +100%, mana leech amount +9%"},
-			{name = "Axe of Mayhem Overcharged", thingId = 26241, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Axe Fighting +1, Critical Hit chance +10%, critical extra damage +60%"},
-			{name = "Axe of Remedy Overcharged", thingId = 26267, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Axe Fighting +1, Hit Points Leech chance +100%, hit points leech amount +9%"},
-			{name = "Chopper of Carving Overcharged", thingId = 26293, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Axe Fighting +1, Mana Leech chance +100%, mana leech amount +9%"},
-			{name = "Chopper of Mayhem Overcharged", thingId = 26244, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Axe Fighting +1, Critical Hit chance +10%, critical extra damage +60%"},
-			{name = "Chopper of Remedy Overcharged", thingId = 26273, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Axe Fighting +1, Hit Points Leech chance +100%, hit points leech amount +9%"},
-			{name = "Hammer of Carving Overcharged", thingId = 26305, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Club Fighting +1, Mana Leech chance +100%, mana leech amount +9%"},
-			{name = "Hammer of Mayhem Overcharged", thingId = 26250, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Club Fighting +1, Critical Hit chance +10%, critical extra damage +60%"},
-			{name = "Hammer of Remedy Overcharged", thingId = 26283, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Club Fighting +1, Hit Points Leech chance +100%, hit points leech amount +9%"},
-			{name = "Mace of Carving Overcharged", thingId = 26300, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Club Fighting +1, Mana Leech chance +100%, mana leech amount +9%"},
-			{name = "Mace of Mayhem Overcharged", thingId = 26247, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Club Fighting +1, Critical Hit chance +10%, critical extra damage +60%"},
-			{name = "Mace of Remedy Overcharged", thingId = 26278, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Club Fighting +1, Hit Points Leech chance +100%, hit points leech amount +9%"},
-			{name = "Rod of Carving Overcharged", thingId = 26317, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Magic Level +1, Mana Leech chance +100%, mana leech amount +9%"},
-			{name = "Rod of Mayhem Overcharged", thingId = 26323, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "	Magic Level +1, Critical Hit chance +10%, critical extra damage +60%"},
-			{name = "Rod of Remedy Overcharged", thingId = 26302, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Magic Level +1, Hit Points Leech chance +100%, hit points leech amount +9%"},
-			{name = "Wand of Carving Overcharged", thingId = 26314, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Magic Level +1, Mana Leech chance +100%, mana leech amount +9%"},
-			{name = "Wand of Mayhem Overcharged", thingId = 26320, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "	Magic Level +1, Critical Hit chance +10%, critical extra damage +60%"},
-			{name = "Wand of Remedy Overcharged", thingId = 26297, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Magic Level +1, Hit Points Leech chance +100%, hit points leech amount +9%"},
-			{name = "Bow of Carving Overcharged", thingId = 26308, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Become rich!"},
-			{name = "Bow of Mayhem Overcharged", thingId = 26254, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Become rich!"},
-			{name = "Bow of Remedy Overcharged", thingId = 26288, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Become rich!"},
-			{name = "Crossbow of Carving Overcharged", thingId = 26311, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Become rich!"},
-			{name = "Crossbow of Mayhem Overcharged", thingId = 26268, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Become rich!"},
-			{name = "Crossbow of Remedy Overcharged", thingId = 26292, count = 1, type = GameStore.OfferTypes.OFFER_TYPE_ITEM, price = 80, icons = {"18409.png"}, description = "Become rich!"},
-			
-		
-		}
-	},
-
-	{
 		name = "Mounts",
 		state = GameStore.States.STATE_NONE,
 		icons = {"Category_Mounts.png"},
